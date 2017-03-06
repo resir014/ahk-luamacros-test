@@ -2,7 +2,7 @@
 
 > An example of using Luamacros + AutoHotkey with a second keyboard on Windows.
 
----
+The following scripts are based on the original implementation made by Taran from LinusTechTips, available [here](https://github.com/TaranVH/2nd-keyboard). The included sample code provides some useful keyboard shortcuts for Photoshop made by a friend of mine (available on the attached `Photoshop Hotkeys.docx` file).
 
 ## Getting started
 
@@ -17,7 +17,6 @@ Either follow the instructions below or [watch this video](https://youtu.be/Arn8
 
 You're good to go!
 
----
 
 ## References
 
