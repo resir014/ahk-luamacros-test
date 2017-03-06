@@ -1,6 +1,6 @@
--- ahk-luamacros-test - Luamacros + AutoHotkey macros for Photoshop
+-- ahk-luamacros-test - Using Luamacros + AutoHotkey with a second keyboard.
 --
--- Written in 2016 by Resi Respati <resir014@github.io>
+-- Written in 2016 by Resi Respati <https://resir014.github.io>
 --
 -- To the extent possible under law, the author(s) have dedicated all copyright
 -- and related and neighboring rights to this software to the public domain
@@ -16,6 +16,7 @@ lmc_assign_keyboard('MACROS');
 sendToAHK = function (key)
     print('It was assigned string:    ' .. key)
 
+    -- You should change the Users folder to your current user.
     local file = io.open("C:\\Users\\Resi\\Documents\\keypressed.txt", "w")
 
     file:write(key)

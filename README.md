@@ -1,19 +1,19 @@
-# 2nd-keyboard
+# ahk-luamacros-test
 
-A simple quickstart guide for using a second keyboard purely for macros on Windows.
+> An example of using Luamacros + AutoHotkey with a second keyboard on Windows.
 
 ---
 
 ## Getting started
 
-Either follow the instructions below or have a [watch the video](https://youtu.be/Arn8ExQ2Gjg?t=362).
-
+Either follow the instructions below or [watch this video](https://youtu.be/Arn8ExQ2Gjg?t=362).
 
 1. Download and install [LuaMacros](http://www.hidmacros.eu/) and [AuthoHotkey](https://autohotkey.com/).
 2. Plug in both keyboards.
-3. Run LuaMacros and open `macros.lua`
-4. Click on the "play" button, wait for the identification window to pop up and press any key on your 2nd keyboard.
-5. Run `photoshop_hotkeys.ahk`. The AutoHotkey tray icon will show up.
+3. On both the `.lua` and `.ahk` files, ensure you've switched the hard-coded `Users` directory into your current user.
+4. Run LuaMacros and open `macros.lua`
+5. Click on the "play" button, wait for the identification window to pop up and press any key on your 2nd keyboard.
+6. Run `photoshop_hotkeys.ahk`. The AutoHotkey tray icon will show up.
 
 You're good to go!
 
